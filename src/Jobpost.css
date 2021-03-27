@@ -1,0 +1,29 @@
+.form-body {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-heading {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.sub-heading {
+  color: #6FB7A1;
+  font-size: 20px;
+  border-bottom: 2px solid #a9949461;
+  margin-bottom: 15px;
+}
+
+.required {
+  color: red;
+}
+
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: "⚠";
+}
